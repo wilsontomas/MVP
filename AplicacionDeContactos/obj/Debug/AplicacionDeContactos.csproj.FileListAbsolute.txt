@@ -1,0 +1,13 @@
+C:\Users\wilso\Desktop\Periodo 2021 c2 eduar\arquitectura de soft\AplicacionDeContactos\AplicacionDeContactos\bin\Debug\AplicacionDeContactos.exe.config
+C:\Users\wilso\Desktop\Periodo 2021 c2 eduar\arquitectura de soft\AplicacionDeContactos\AplicacionDeContactos\bin\Debug\AplicacionDeContactos.exe
+C:\Users\wilso\Desktop\Periodo 2021 c2 eduar\arquitectura de soft\AplicacionDeContactos\AplicacionDeContactos\bin\Debug\AplicacionDeContactos.pdb
+C:\Users\wilso\Desktop\Periodo 2021 c2 eduar\arquitectura de soft\AplicacionDeContactos\AplicacionDeContactos\bin\Debug\Dapper.dll
+C:\Users\wilso\Desktop\Periodo 2021 c2 eduar\arquitectura de soft\AplicacionDeContactos\AplicacionDeContactos\bin\Debug\Dapper.xml
+C:\Users\wilso\Desktop\Periodo 2021 c2 eduar\arquitectura de soft\AplicacionDeContactos\AplicacionDeContactos\obj\Debug\AplicacionDeContactos.csprojAssemblyReference.cache
+C:\Users\wilso\Desktop\Periodo 2021 c2 eduar\arquitectura de soft\AplicacionDeContactos\AplicacionDeContactos\obj\Debug\AplicacionDeContactos.Form1.resources
+C:\Users\wilso\Desktop\Periodo 2021 c2 eduar\arquitectura de soft\AplicacionDeContactos\AplicacionDeContactos\obj\Debug\AplicacionDeContactos.Properties.Resources.resources
+C:\Users\wilso\Desktop\Periodo 2021 c2 eduar\arquitectura de soft\AplicacionDeContactos\AplicacionDeContactos\obj\Debug\AplicacionDeContactos.csproj.GenerateResource.cache
+C:\Users\wilso\Desktop\Periodo 2021 c2 eduar\arquitectura de soft\AplicacionDeContactos\AplicacionDeContactos\obj\Debug\AplicacionDeContactos.csproj.CoreCompileInputs.cache
+C:\Users\wilso\Desktop\Periodo 2021 c2 eduar\arquitectura de soft\AplicacionDeContactos\AplicacionDeContactos\obj\Debug\AplicacionDeContactos.csproj.CopyComplete
+C:\Users\wilso\Desktop\Periodo 2021 c2 eduar\arquitectura de soft\AplicacionDeContactos\AplicacionDeContactos\obj\Debug\AplicacionDeContactos.exe
+C:\Users\wilso\Desktop\Periodo 2021 c2 eduar\arquitectura de soft\AplicacionDeContactos\AplicacionDeContactos\obj\Debug\AplicacionDeContactos.pdb
