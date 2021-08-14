@@ -21,7 +21,7 @@ namespace AplicacionDeContactos
         public int id { get; set; }
         private void VentanaEdicion_Load(object sender, EventArgs e)
         {
-            MessageBox.Show(id.ToString());
+           // MessageBox.Show(id.ToString());
             var contacto = new Contactos();
             contacto.Id = this.id;
             var presenter = new ContactosPresenter(contacto);
@@ -50,6 +50,7 @@ namespace AplicacionDeContactos
                 if (!string.IsNullOrEmpty(NombreE.Text) || !string.IsNullOrEmpty(ApellidoE.Text) || !string.IsNullOrEmpty(NumeroE.Text))
                 {
                     var contacto = new Contactos();
+                    contacto.Id = this.id;
                     contacto.Nombre = NombreE.Text;
                     contacto.Apellido = ApellidoE.Text;
                     contacto.Numero = numerotxt;
@@ -64,7 +65,11 @@ namespace AplicacionDeContactos
                     {
                         MessageBox.Show("Error al editar");
                     }
-                    
+
+                }
+                else
+                {
+                    MessageBox.Show("Los valores no pueden estar vacios");
                 }
 
             }
