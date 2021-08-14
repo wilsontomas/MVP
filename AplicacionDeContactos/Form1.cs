@@ -57,5 +57,36 @@ namespace AplicacionDeContactos
            
             
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            int numerotxt = 0;
+             if(int.TryParse(DataGrid.CurrentRow.Cells[0].Value.ToString(),out numerotxt))
+            {
+                MessageBox.Show(numerotxt.ToString());
+            }
+            
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            var confirmResult = MessageBox.Show("Quieres eliminar este registro?",
+                                     "CONFIRMACIOND DE ELIMINACION",
+                                     MessageBoxButtons.YesNo);
+            if (confirmResult == DialogResult.Yes)
+            {
+                    int numerotxt = 0;
+                if (int.TryParse(DataGrid.CurrentRow.Cells[0].Value.ToString(), out numerotxt))
+                {
+                    var contacto = new Contactos();
+                    contacto.Id = numerotxt;           
+                    var presenter = new ContactosPresenter(contacto);
+                    presenter.EliminarContacto();
+                    DataGrid.DataSource = presenter.VerContactos();
+                }
+            }
+           
+           
+        }
     }
 }

@@ -60,6 +60,7 @@ namespace AplicacionDeContactos
             this.button2.TabIndex = 1;
             this.button2.Text = "Eliminar";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
@@ -69,6 +70,7 @@ namespace AplicacionDeContactos
             this.button3.TabIndex = 2;
             this.button3.Text = "Editar";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // label1
             // 
@@ -124,6 +126,8 @@ namespace AplicacionDeContactos
             this.DataGrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.DataGrid.Location = new System.Drawing.Point(32, 175);
             this.DataGrid.Name = "DataGrid";
+            this.DataGrid.ReadOnly = true;
+            this.DataGrid.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.DataGrid.Size = new System.Drawing.Size(272, 150);
             this.DataGrid.TabIndex = 9;
             // 
