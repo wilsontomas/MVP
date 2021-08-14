@@ -11,3 +11,4 @@ C:\Users\wilso\Desktop\Periodo 2021 c2 eduar\arquitectura de soft\AplicacionDeCo
 C:\Users\wilso\Desktop\Periodo 2021 c2 eduar\arquitectura de soft\AplicacionDeContactos\AplicacionDeContactos\obj\Debug\AplicacionDeContactos.csproj.CopyComplete
 C:\Users\wilso\Desktop\Periodo 2021 c2 eduar\arquitectura de soft\AplicacionDeContactos\AplicacionDeContactos\obj\Debug\AplicacionDeContactos.exe
 C:\Users\wilso\Desktop\Periodo 2021 c2 eduar\arquitectura de soft\AplicacionDeContactos\AplicacionDeContactos\obj\Debug\AplicacionDeContactos.pdb
+C:\Users\wilso\Desktop\Periodo 2021 c2 eduar\arquitectura de soft\AplicacionDeContactos\AplicacionDeContactos\obj\Debug\AplicacionDeContactos.VentanaEdicion.resources

@@ -57,6 +57,12 @@
     </Compile>
     <Compile Include="Models\Conexion.cs" />
     <Compile Include="Models\Contactos.cs" />
+    <Compile Include="VentanaEdicion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VentanaEdicion.Designer.cs">
+      <DependentUpon>VentanaEdicion.cs</DependentUpon>
+    </Compile>
     <Compile Include="Views\IContactos.cs" />
     <Compile Include="Presenter\ContactosPresenter.cs" />
     <Compile Include="Program.cs" />
@@ -73,6 +79,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="VentanaEdicion.resx">
+      <DependentUpon>VentanaEdicion.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

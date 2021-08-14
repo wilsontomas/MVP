@@ -63,7 +63,13 @@ namespace AplicacionDeContactos
             int numerotxt = 0;
              if(int.TryParse(DataGrid.CurrentRow.Cells[0].Value.ToString(),out numerotxt))
             {
-                MessageBox.Show(numerotxt.ToString());
+               // MessageBox.Show(numerotxt.ToString());
+                VentanaEdicion edicion = new VentanaEdicion();
+                edicion.id = numerotxt;
+                 this.Hide();
+                edicion.ShowDialog();
+               
+
             }
             
         }
